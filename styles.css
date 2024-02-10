@@ -1,0 +1,94 @@
+body {
+    font-family: Poppins, sans-serif;
+    color: rgb(49,42,40);
+}
+
+h1 {
+    font-family: Sacramento, cursive;
+    font-size: 80px;
+    margin: 0;
+    padding: 20 0 0 0;
+    text-align: center;
+    color: whitesmoke;
+}
+
+header p {
+    margin: -8px 0 0 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(163, 157, 152)
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+figure {
+    width: 600px;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: 18px;
+    text-align: center;
+}
+
+.divider {
+    border-bottom: 3px solid rgb(49,42,40);
+    margin: 50px 50px;
+}
+
+.song-lyrics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.album-cover {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 0 20px;
+}
+
+.lyrics {
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.reversed {
+    text-align: right;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(163, 157, 152)
+}
+
+footer p {
+    text-align: center;
+    color: whitesmoke;
+    padding: 30px 0;
+}
+
+a:hover, a:active, a:visited {
+    color: rgb(49,42,40)
+}
+
+a:hover {
+    font-weight: 700;
+}
